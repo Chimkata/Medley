@@ -18,7 +18,7 @@ Medley is a decentralized concert ticketing platform powered by _NFT technology_
   <img src="https://icp.ninja/assets/ninja-logo.svg" alt="Internet Computer Logo" width="400"/>
 </div>
 
-You could access the file via ICP Ninja with this link: [ICP Ninja Link](https://icp.ninja/s/zAj1P)
+You could access the file via ICP Ninja with this link: [ICP Ninja Link](https://icp.ninja/s/G5eLG)
 
 ---
 
