@@ -35,7 +35,7 @@ ICP offers scalability, speed, and decentralization, making it an ideal blockcha
 
 - _Name_: Medley
 - _Type_: NFT-Based Concert Ticketing Platform
-- _Track_: Track 2 - Chain Fusions & Token (Primarily Token with ICRC-7 Canister for NFT)
+- _Track_: Track 2 - Chain Fusions & Token (Primarily Token with ICRC-7 Canister for NFT and ICRC-1 for Token Creation & Transaction)
 - _Built For_: ICP Hackathon 12
 - _Focus_: Decentralized ticket management, NFT-based ownership, and secure validation
 - _Source of Income_:
@@ -305,37 +305,32 @@ Make sure these are installed on your machine:
 
 ### 1. Clone the Repository
 
-```
-bash
-git clone https://github.com/Myaneeeee/Medley.git
+```bash
+git clone https://github.com/Kimchiigu/Medley.git
 cd medley
 ```
 
 ### 2. Install Dependencies
 
-```
-shellscript
+```shellscript
 npm install
 ```
 
 ### 3. Start the Local ICP Network
 
-```
-shellscript
+```shellscript
 dfx start --clean --background
 ```
 
 ### 4. Deploy the Internet Identity canister:
 
-```
-shellscript
+```shellscript
 dfx deploy internet_identity
 ```
 
 ### 5. Initialize mops:
 
-```
-shellscript
+```shellscript
 mops init
 
 --Notes: sudo npm i -g ic-mops (if mops is not installed)
@@ -343,15 +338,13 @@ mops init
 
 ### 6. Deploy Canisters Locally
 
-```
-shellscript
+```shellscript
 dfx deploy
 ```
 
 ### 7. Start the Development Server
 
-```
-shellscript
+```shellscript
 npm run dev
 ```
 
